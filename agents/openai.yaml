@@ -1,0 +1,6 @@
+interface:
+  display_name: "Architecture Brainstorming"
+  short_description: "Explore requirements, architectural qualities, and tradeoffs"
+  default_prompt: "Use $architecture-brainstorming as a critical teammate to brainstorm this project's requirements, architectural characteristics, and decisions."
+policy:
+  allow_implicit_invocation: true
