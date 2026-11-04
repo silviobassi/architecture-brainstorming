@@ -22,4 +22,15 @@ This repository distributes an architecture-brainstorming skill. Runtime instruc
 - Use `main` as the default branch and tags for versions. Do not force-push or replace remote history
   to work around content or authorization conflicts.
 
+## TypeSafe AI
+
+Use the [TypeSafe AI skill](https://github.com/typesafe-ai/skills/blob/main/skills/typesafe-ai/SKILL.md)
+when working on TypeSafe-related tasks in this project. For Codex, install it with
+`npx skills add typesafe-ai/skills --skill typesafe-ai --agent codex`.
+
+The local environment file for TypeSafe AI (Jev) is `~/.config/ai-secrets/jev.env`.
+Load it only when TypeSafe API access is needed; keep its contents and credential values out of
+logs, documentation, and version control. Keep this machine-specific reference in maintenance
+guidance rather than the distributed `SKILL.md` or `references/`.
+
 The MIT license covers this repository's original content. External sources retain their own terms.
